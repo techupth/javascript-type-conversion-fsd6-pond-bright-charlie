@@ -1,6 +1,7 @@
 let accountBalance = 400;
 let depositAmountFromUser = "10";
 
+depositAmountFromUser = parseInt(depositAmountFromUser);
 
 accountBalance = accountBalance + depositAmountFromUser;
 
